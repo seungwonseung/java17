@@ -9,6 +9,7 @@ public class Score {
 
     public Score(){}
     //
+    p
     public Score(int num) {
         this.num = num;
     }
