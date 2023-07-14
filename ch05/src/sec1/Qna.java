@@ -33,5 +33,8 @@ public class Qna extends Board{
         this.parno = parno;
     }
 
-
+    @Override
+    public void method2() {
+        System.out.println("Qna입니다.");
+    }
 }
