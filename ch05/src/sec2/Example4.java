@@ -10,6 +10,6 @@ public class Example4 {
 
         Qna q2 = new Qna();
         q2.setTitle(Qna.DUMMY); //먼저 셋팅을 하고
-        System.out.println(q2.getTitle()+1); //출력
+        System.out.println(q2.getTitle()); //출력
     }
 }

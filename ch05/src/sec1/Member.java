@@ -8,7 +8,7 @@ public class Member {
     private String tel;
     private int point;
 
-    public Member(){this("Shinseungwon")}
+    public Member(){this("Shinseungwon");}
 
     public Member(String name){
         this(name,"seung" );

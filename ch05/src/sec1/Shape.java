@@ -16,7 +16,7 @@ public class Shape {
     //반드시 멤버 필드는 private를 거는 것이 보통임.
 //------------------------------------------------------------------------------------------------------------------
 //
-    public shape(){};
+    public Shape(){};
     public Shape(String type){
         this.type = type;  //this = 현재 클래스 내부
     }
@@ -46,9 +46,6 @@ public class Shape {
     }
     public void setLength(int length) {
         this.length = length;
-    }
-    public void setType(String type) {
-        this.type = type;
     }
 }
 //-----------------------------------------------------------------------------------------------------

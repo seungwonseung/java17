@@ -15,7 +15,7 @@ public class Example1 {
         s1.type = "square";
         s1.length = 50;
 
-        double d2 = .calcArea()
+        double d2 = s1.calcArea();
         System.out.println("현재 도형의 면적은 ? "+s1.area);
 
         Shape s2 = new Shape("square");

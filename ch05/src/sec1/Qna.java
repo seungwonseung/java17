@@ -11,7 +11,7 @@ public class Qna extends Board{
     public Qna() {super();}
 
     public Qna(int no) {
-        super(no:1);
+        super(1);
     }
 
     //생성자
